@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-@Log4j2
+//@Log4j2
 public class UserService {
 
     @Autowired
@@ -28,14 +28,15 @@ public class UserService {
     private UserMapper userMapper;
 
     public void addUser(UserInformationRequest userRequest) {
-        log.info("User from the in the service: {}", userRequest);
+        System.out.println(userRequest);
+//        log.info("User from the in the service: {}", userRequest);
         User user = userMapper.toUserInformation(userRequest);
         userRepository.save(user);
-        log.info("User added to database: {}", user);
+//        log.info("User added to database: {}", user);
     }
 
     public List<UserInformationResponse> getAllUsers() {
-        log.info("Fetching all users from database");
+//        log.info("Fetching all users from database");
         List<User> users = userRepository.findAll();
         return users.stream()
                 .map(userMapper::toUserInformationResponse)  // Mapping each user to a response DTO

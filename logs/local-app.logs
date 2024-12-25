@@ -1,0 +1,50 @@
+2024-12-25T11:03:12.789+05:00  INFO 11348 --- [userInformation] [restartedMain] c.p.u.UserInformationApplication         : Starting UserInformationApplication using Java 17.0.13 with PID 11348 (D:\SpringBoot_Projects\userInformation\userInformation\target\classes started by Aans Rehman Khan in D:\SpringBoot_Projects\userInformation\userInformation)
+2024-12-25T11:03:12.796+05:00 DEBUG 11348 --- [userInformation] [restartedMain] c.p.u.UserInformationApplication         : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-25T11:03:12.798+05:00  INFO 11348 --- [userInformation] [restartedMain] c.p.u.UserInformationApplication         : The following 1 profile is active: "local"
+2024-12-25T11:03:12.932+05:00  INFO 11348 --- [userInformation] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-25T11:03:12.934+05:00  INFO 11348 --- [userInformation] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-25T11:03:14.361+05:00  INFO 11348 --- [userInformation] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25T11:03:14.489+05:00  INFO 11348 --- [userInformation] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
+2024-12-25T11:03:16.007+05:00  INFO 11348 --- [userInformation] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-25T11:03:16.029+05:00  INFO 11348 --- [userInformation] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T11:03:16.030+05:00  INFO 11348 --- [userInformation] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-25T11:03:16.129+05:00  INFO 11348 --- [userInformation] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T11:03:16.130+05:00  INFO 11348 --- [userInformation] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3194 ms
+2024-12-25T11:03:16.477+05:00  INFO 11348 --- [userInformation] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25T11:03:16.587+05:00  INFO 11348 --- [userInformation] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-25T11:03:16.656+05:00  INFO 11348 --- [userInformation] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-25T11:03:17.280+05:00  INFO 11348 --- [userInformation] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-25T11:03:17.341+05:00  INFO 11348 --- [userInformation] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-25T11:03:17.523+05:00  INFO 11348 --- [userInformation] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@d2c8292
+2024-12-25T11:03:17.527+05:00  INFO 11348 --- [userInformation] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-25T11:03:17.611+05:00  WARN 11348 --- [userInformation] [restartedMain] org.hibernate.dialect.Dialect            : HHH000511: The 8.0.37 version for [org.hibernate.dialect.MariaDBDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 10.4.0. Check the community dialects project for available legacy versions.
+2024-12-25T11:03:17.657+05:00  INFO 11348 --- [userInformation] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.37
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-25T11:03:19.264+05:00  INFO 11348 --- [userInformation] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-25T11:03:19.346+05:00  INFO 11348 --- [userInformation] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T11:03:20.248+05:00  WARN 11348 --- [userInformation] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25T11:03:21.280+05:00  INFO 11348 --- [userInformation] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-25T11:03:21.357+05:00  INFO 11348 --- [userInformation] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-25T11:03:21.376+05:00  INFO 11348 --- [userInformation] [restartedMain] c.p.u.UserInformationApplication         : Started UserInformationApplication in 9.53 seconds (process running for 11.126)
+2024-12-25T11:03:26.358+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25T11:03:26.359+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-25T11:03:26.362+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-25T11:03:26.438+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         :  ##TOKEN-null ## REQUEST-TIME: Wed Dec 25 11:03:26 PKT 2024
+2024-12-25T11:03:26.476+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         :  ##TOKEN-null ## RequestJSON: []
+2024-12-25T11:03:26.480+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         : ## Landed in  UserController
+2024-12-25T11:03:26.481+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         : ## Landed in  UserService
+2024-12-25T11:03:26.849+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         : ## Exiting from UserService
+2024-12-25T11:03:26.856+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         : ## Exiting from UserController
+2024-12-25T11:03:26.857+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         :  ##TOKEN-null ## DURATION: 423ms
+2024-12-25T11:03:26.952+05:00  INFO 11348 --- [userInformation] [http-nio-8081-exec-1] c.p.u.aspect.LoggingHelperAspect         :  ##TOKEN-null ## ResponseJSON: {"headers":{},"body":[{"id":2,"firstName":"John","lastName":"Doe","address":"john.doe@example.com"},{"id":3,"firstName":"John","lastName":"Doe","address":"john.doe@example.com"},{"id":4,"firstName":"Aans","lastName":"Rehman","address":"aansrehman10@example.com"},{"id":8,"firstName":"abc","lastName":"sd","address":"abc@example.com"}],"statusCode":"OK","statusCodeValue":200}
+2024-12-25T11:04:38.467+05:00  INFO 11348 --- [userInformation] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T11:04:38.925+05:00  INFO 11348 --- [userInformation] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T11:04:38.947+05:00  INFO 11348 --- [userInformation] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T11:04:38.956+05:00  INFO 11348 --- [userInformation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-25T11:04:38.968+05:00  INFO 11348 --- [userInformation] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

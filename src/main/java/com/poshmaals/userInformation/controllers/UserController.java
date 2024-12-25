@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/users/")
-@Log4j2
+//@Log4j2
 public class UserController {
 
     @Autowired
@@ -26,15 +26,16 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<String> addUser(@RequestBody UserInformationRequest user) {
-        log.debug("User recieved in the controller: {}" + user);
+        System.out.println(user);
+//        log.debug("User recieved in the controller: {}" + user);
         userService.addUser(user);
-        log.debug("POST: User added successfully");
+//        log.debug("POST: User added successfully");
         return ResponseEntity.ok("User added successfully");
     }
 
     @GetMapping
     public ResponseEntity<List<UserInformationResponse>> getAllUsers() {
-        log.debug("GET: Fetching all users");
+//        log.debug("GET: Fetching all users");
 //        return ResponseEntity.ok(userService.getAllUsers());
         List<UserInformationResponse> users = userService.getAllUsers();
         return ResponseEntity.ok(users);
